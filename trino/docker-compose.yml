@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  trino-coordinator:
+    image: 'trinodb/trino:latest'
+    hostname: trino-coordinator
+    ports:
+      - '8887:8080'
+#    environment:
+#      - TRINO_JAVA_OPTS=-Xmx2G
+#      - TRINO_LOG_LEVEL=INFO
+    volumes:
+      - ./etc:/etc/trino
+    networks:
+      - datalake-net
+
+networks:
+  datalake-net:
+    external: true
