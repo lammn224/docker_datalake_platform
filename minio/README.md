@@ -1,6 +1,10 @@
-# MinIO on Docker Compose
+# Distributed MinIO on Docker Compose
 
 ## Description
+
+MinIO is a High Performance Object Storage released under GNU Affero General Public License v3.0. It is API compatible
+with Amazon S3 cloud storage service. Use MinIO to build high performance infrastructure for machine learning, analytics
+and application data workloads.
 
 ## 1. Prerequisites
 
@@ -35,3 +39,16 @@ through Nginx load balancing.
   Read more about distributed
   MinIO [here](https://min.io/docs/minio/container/operations/install-deploy-manage/deploy-minio-single-node-multi-drive.html)
   .
+
+[1]: http://www.github.com/lammn224
+
+[2]: https://www.linkedin.com/in/lammn
+
+--- 
+
+**Connect with me**
+
+[<img alt="github" height="50" src="https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png" width="50"/>][1]
+[<img alt="linkedin" height="50" src="https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png" width="50"/>][2]
+
+---

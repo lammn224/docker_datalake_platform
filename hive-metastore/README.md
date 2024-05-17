@@ -3,8 +3,7 @@
 ## Description
 
 Hive selects **corresponding database servers** to store the schema or metadata of tables, databases, columns in a
-table,
-their data types, and HDFS mappings.
+table, their data types, and HDFS mappings.
 
 Corresponding database server is used in this repo is `Postgres`
 
@@ -27,8 +26,7 @@ Create `jars` folder and download these jar files:
 ```
 
 Please make relevant changes to `fs.s3a.access.key`, `fs.s3a.secret.key`, `fs.s3a.endpoint` to point to your local MinIO
-setup, file to be modified
-is `hive-site.xml`
+setup, file to be modified is `hive-site.xml`
 
 ```
 <property>
@@ -68,3 +66,16 @@ Run below command
 ```bash
 docker-compose up -d
 ```
+
+[1]: http://www.github.com/lammn224
+
+[2]: https://www.linkedin.com/in/lammn
+
+--- 
+
+**Connect with me**
+
+[<img alt="github" height="50" src="https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png" width="50"/>][1]
+[<img alt="linkedin" height="50" src="https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png" width="50"/>][2]
+
+---
