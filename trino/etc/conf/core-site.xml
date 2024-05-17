@@ -20,12 +20,12 @@
 
     <property>
         <name>fs.s3a.access.key</name>
-        <value>WySCTIvfieAsGDPyAset</value>
+        <value>minio</value>
     </property>
 
     <property>
         <name>fs.s3a.secret.key</name>
-        <value>YD3m0pszyLu7X4Ls8ZCzxVwe7rOJbH4qr8kxhPzs</value>
+        <value>minio123</value>
     </property>
 
     <property>
